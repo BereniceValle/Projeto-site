@@ -1,0 +1,159 @@
+/* Color Theme Swatches in Hex extraído do site "https://color.adobe.com/pt/create/color-wheel"
+.Vogue-Paris---Sølve-Sundsbø-1-hex { color: #BF4158; }
+.Vogue-Paris---Sølve-Sundsbø-2-hex { color: #F28A2E; }
+.Vogue-Paris---Sølve-Sundsbø-3-hex { color: #F27127; }
+.Vogue-Paris---Sølve-Sundsbø-4-hex { color: #BF3415; }
+.Vogue-Paris---Sølve-Sundsbø-5-hex { color: #400101; }
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;/*Já deixa o texto configurado e responsivo*/
+    text-shadow: 4px 4px 6px #000;
+    font-weight: 700;
+    font-size: max(44px,5.2vw);
+}
+
+h2{
+    font-family: sans-serif;/*Já deixa o texto configurado e responsivo*/
+    text-shadow: 4px 4px 6px #400101;
+    font-weight: 700;
+    font-size: max(20px, 2.8vw);
+}
+/*-------  Botão chamada  -------*/
+div.chamada a{
+    font-size: max(16px, 1.8vw); /*já deixa a fonte responsiva*/
+    color: #Fff;
+    text-decoration: none;
+    padding: 20px 80px;
+    border-radius: 50px;
+    font-weight: 600;
+    background: linear-gradient(rgba(242, 138, 46, 1) 0%, rgba(242, 113, 39, 1) 50%, rgba(191, 52, 21, 1) 100%);
+    display: inline-block;
+}
+
+div.chamada a:hover{
+    opacity: .8;
+}
+/*-------  Elementos do header  -------*/
+header{
+    max-width: 100%; /*100% de largura*/
+    height: 90vh; /*90% de visualização*/
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(../Imagens/headerCapaG.jpg);/*tira o brilho da imagem*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+/*-------  Nav  -------*/
+header nav#nav-esquerda{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    /*justify-content: space-between; /*(move "menu" para canto direito */
+}
+
+header nav#nav-esquerda div#logo{
+    width: 100px;
+    height: 120px;
+    margin-left: 5rem;
+}
+
+header nav#nav-esquerda div#logo img{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #F27127;
+    opacity: .7;
+}
+/*-------  Menu hamburguer  -------*/
+
+header nav#nav-esquerda ul#icone-menu{
+    display: none;
+}
+
+header nav#nav-esquerda ul#icone-menu li{
+    list-style: none;
+}
+
+header nav#nav-esquerda ul#icone-menu li ion-icon{
+    font-size: 50px;
+    color:#fff;
+    margin-right: 2rem;
+}
+/*-------  Menu principal  -------*/
+
+header nav#nav-esquerda ul.menu-principal{
+    margin-left: 10rem;
+    display: flex;
+    flex-flow: row wrap;
+    color: #fff;
+}
+
+header nav#nav-esquerda ul.menu-principal li{
+    list-style: none;
+    margin-right: 2rem;
+    
+}
+
+header nav#nav-esquerda ul.menu-principal li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 100%;
+    text-shadow: 4px 6px 10px #F27127; /*sombreamento*/
+    padding-bottom: 10px;
+    transition: .3s ease-in-out;
+}
+
+header nav#nav-esquerda ul.menu-principal li a:hover{
+    opacity: .6;
+    border-bottom: 1px solid #fff;
+}
+/*-------  Chamada  -------*/
+
+header div.chamada{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header div.chamada h1{
+    color: #fff;
+
+}
+
+header div.chamada h2{
+    color: #f28af2;
+}
+/*-------  sobre  -------*/
+
+section.sobre{
+    max-width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section.sobre div.sobre-mestre{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section.sobre div.sobre-mestre img{
+    border: 2px solid #f28a2e;
+}
+
+/*-------  Chamada  -------*/

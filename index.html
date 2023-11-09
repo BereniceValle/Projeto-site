@@ -1,26 +1,132 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso em Vídeo</title>
-    <link rel="stylesheet" href="estilos/style.css"
+    <title>Maquiagem & CIA</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Indie+Flower&family=Noto+Serif:ital,wght@0,100;1,100&family=Roboto+Slab:wght@100;300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
 </head>
+
 <body>
+    <header>
+        <nav id="nav-esquerda">
+            <div id="logo">
+                <img src="./Imagens/logo.png" alt="logo">
+            </div>
+
+            <ul id="icone-menu">
+                <li id="menu"><ion-icon name="menu-outline"></ion-icon></li>
+                <li id="menuX"><ion-icon name="close-outline"></ion-icon></li>
+            </ul>
+
+            <ul class="menu-principal">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Mulheres Merecem</a></li>
+                <li><a href="#">Makes</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="chamada">
+            <h1>Maquiagem & Cia</h1>
+            <h2>Toda mulher merece uma maquiagem incrível</h2>
+            <a href="https://wa.me/5531991472719" target="_blank" rel="noopener noreferrer">QUERO AGENDAR AGORA</a>
+        </div>
+    </header>
     <main>
-        <header>
-            <h1>Cursos Grátis</h1>
-        </header>
-        <article>
-            <h2>Curso de HTML5 com CSS3</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias neque ab voluptates modi sit inventore, soluta quo aliquid nemo quas laboriosam iure accusamus, necessitatibus veritatis repudiandae quod corporis. Commodi, cupiditate.</p>
-        </article>
-        <article>
-            <h2>Curso de JavaScript</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quae modi aperiam est rerum animi ut reiciendis. Quis quidem mollitia ut eaque? Est perferendis minus ipsa temporibus perspiciatis velit veritatis!</p>
-        </article>
+        <section class="sobre">
+            <div class="sobre-mestre">
+                <div class="row"><!--div extraída do bootstrap-->
+                    <div class="col-lg-4">
+                        <img src="Imagens/sobre01.jpg" class="bd-placeholder-img rounded-circle" width="140"
+                            height="140" role="img" aria-label="Placeholder: 140x140"
+                            preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+
+                        <h2>Viaje tranquilo com nosso guia</h2>
+                        <p>
+                            Algum conteúdo representativo de espaço
+                            reservado para as três colunas de texto abaixo do carrossel.
+                            sta é a primeira coluna.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Tempora sunt magni magnam voluptatibus ipsam dolorum? A quia aliquam quidem nobis 
+                            repellat, cupiditate, dolorum nihil fugit qui praesentium assumenda? Asperiores, cum.
+                        </p>
+                        <p><a class="btn btn-secondary" href="#">
+                               Ver detalhes --->
+                            </a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <img src="Imagens/sobre02.jpg" class="bd-placeholder-img rounded-circle" width="140"
+                            height="140" role="img" aria-label="Espaço reservado" preserveAspectRatio="xMidYMid slice"
+                            focusable="false">
+                        </img>
+                        <h2>Maximize sua experiêcia</h2>
+                        <p>
+                            Outro conteúdo interessante de espaço
+                            reservado representativo. Desta vez, passamos para a segunda coluna.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et consequuntur 
+                            necessitatibus perspiciatis aliquam voluptatum numquam amet nostrum iusto 
+                            dolore molestiae velit praesentium molestias, odit repellendus maiores 
+                            labore possimus atque nulla?
+                        </p>
+                        <p><a class="btn btn-secondary" href="#">
+                                Ver detalhes --->
+                            </a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <img src="Imagens/sobre03.jpg" class="bd-placeholder-img rounded-circle" width="140"
+                            height="140" role="img" aria-label="Espaço reservado" preserveAspectRatio="xMidYMid slice"
+                            focusable="false">
+                        </img>
+                        <h2>Seja fluente em qualquer lugar</h2>
+                        <p>
+                            E por último esta, a terceira coluna de conteúdo representativo do espaço reservado.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum minus repudiandae 
+                            aspernatur maxime vitae facere velit amet vero earum incidunt officia voluptates 
+                            nihil iure tempora autem, error dicta architecto? Repudiandae!
+                        </p>
+                        <p><a class="btn btn-secondary" href="#">
+                                Ver detalhes --->
+                            </a></p>
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+            </div>
+            <div class="chamada">
+                <a href="https://wa.me/5531991472719" target="_blank" rel="noopener noreferrer">QUERO AGENDAR AGORA</a>
+            </div>
+        </section>
     </main>
-    
+    <footer></footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/sticky.min.js"
+        integrity="sha512-O5YCLUxCY2OBc4rfpnKUIgE4LGuCiW8CrJ7ty4hvkBAAKUOnlbomEFWd3a6ruRnFvO3LG2wiaGiJ1heOvdppvA=="
+        crossorigin="anonymous"></script>
+
+    <script src="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="./scripts/script.js"></script>
+
 </body>
+
 </html>

@@ -1,0 +1,74 @@
+/* Color Theme Swatches in Hex extraído do site "https://color.adobe.com/pt/create/color-wheel"
+.Vogue-Paris---Sølve-Sundsbø-1-hex { color: #BF4158; }
+.Vogue-Paris---Sølve-Sundsbø-2-hex { color: #F28A2E; }
+.Vogue-Paris---Sølve-Sundsbø-3-hex { color: #F27127; }
+.Vogue-Paris---Sølve-Sundsbø-4-hex { color: #BF3415; }
+.Vogue-Paris---Sølve-Sundsbø-5-hex { color: #400101; }
+*/
+
+/*-------  Elementos do header  -------*/
+@media screen and (max-width: 1200px){
+    header{
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(../Imagens/headerCapaM.jpg);/*tira o brilho da imagem*/
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 600px){
+    header{
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(../Imagens/headerCapaP.jpg);/*tira o brilho da imagem*/
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+/*-------  NaveBar -------*/
+@media screen and (max-width: 1110px){
+    header nav#nav-esquerda ul.menu-principal li a{
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 970px){
+    header nav#nav-esquerda div#logo{
+        margin-left: 1rem;
+    }
+    /*-------  Menu hanburguer  -------*/
+
+    header nav#nav-esquerda{
+        justify-content: space-between;
+    }
+
+    header nav#nav-esquerda ul#icone-menu{
+        display: flex; /* para desktop ele é "none", aqui é o contrario*/
+    }
+
+    header nav#nav-esquerda ul#icone-menu li#menuX{
+        display: none;
+    }
+    /*-------  Menu principal  -------*/
+
+    header nav#nav-esquerda ul.menu-principal{
+        flex-direction: column;
+        width: 80%;
+        height: 70vh;
+        background: linear-gradient(rgba(242, 138, 46, .9) 60%, rgba(242, 113, 39, .7) 80%, rgba(191, 52, 21, .5) 100%);
+        padding-top: .5rem;
+        position: absolute;
+        top: 7rem;
+        right: 0;
+        z-index: 999;
+        display: none;
+    }
+
+    header nav#nav-esquerda ul.menu-principal li{
+        margin: .5rem;
+    }
+    header nav#nav-esquerda ul.menu-principal li a{
+        font-size: 120%;
+    }
+
+}
