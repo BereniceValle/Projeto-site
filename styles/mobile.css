@@ -9,7 +9,7 @@
 /*-------  Elementos do header  -------*/
 @media screen and (max-width: 1200px){
     header{
-        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(../Imagens/headerCapaM.jpg);/*tira o brilho da imagem*/
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(../Imagens/headerNinaG.png);/*tira o brilho da imagem*/
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 600px){
     header{
-        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(../Imagens/headerCapaP.jpg);/*tira o brilho da imagem*/
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(../Imagens/headerNinaG.png);/*tira o brilho da imagem*/
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
