@@ -43,7 +43,7 @@ div.chamada a:hover{
 header{
     max-width: 100%; /*100% de largura*/
     height: 90vh; /*90% de visualização*/
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(../Imagens/headerNinaG.png);/*tira o brilho da imagem*/
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url(../Imagens/headerCapaG.jpg);/*tira o brilho da imagem*/
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
