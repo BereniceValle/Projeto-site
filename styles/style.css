@@ -155,5 +155,56 @@ section.sobre div.sobre-mestre{
 section.sobre div.sobre-mestre img{
     border: 2px solid #f28a2e;
 }
+/*-------  Mulheres merecem  -------*/
 
-/*-------  Chamada  -------*/
+section.solucao{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: #400101;
+    border-bottom: #400101;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: #f28a2e;
+}
+section.solucao h2{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    max-width: 950px;/* px e não % pq já fica responsivo*/
+    text-align: center;
+    color: #Fff;
+    font-size: max(22px, 2.8vw); /* já fica responsivo*/
+}
+
+section.solucao div.solucao-mestre{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+section.solucao div.solucao-mestre div.solucao-texto{
+    max-width: 800px;
+    text-align: left;
+    line-height: 1.8; /* espaçamento estre as linhas do texto, use entre 1.8 a 2*/
+    margin-bottom: 20px;
+}
+
+section.solucao div.solucao-mestre div.solucao-texto p{
+    width: 90%;
+    margin: auto;
+    color: #Fff;
+    text-shadow: 2px 2px 5px #400101;/*funda da letra que ajuda na visualização, px são as posições que vai ocupar na tela */
+    font-size: max(16px, 1vw);
+}
+
+section.solucao div.solucao-mestre div.solucao-img{
+    max-width: 400px;
+}
+
+section.solucao div.solucao-mestre div.solucao-img img{
+    max-width: 100%;/* quer dizer: se comporte o maximo da largura da div pai(que é a "solucao-img)*/
+}
