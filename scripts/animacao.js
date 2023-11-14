@@ -37,7 +37,7 @@ $('footer div.footer-container nav.nav-footer ul.menu-principal li:eq(3)').click
 /*-------  Section sobre  -------*/
 //elementos de opacidade 0
 
-/*$('div.sobre-mestre').css('opacity', .0);
+$('div.sobre-mestre').css('opacity', .0);
 
 $('div.sobre-mestre').waypoint(function(direcao){
     if(direcao == 'down'){
@@ -47,4 +47,4 @@ $('div.sobre-mestre').waypoint(function(direcao){
     }
 }, {
     offset: '500px;'
-})*/
+})
