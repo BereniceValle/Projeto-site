@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar{ /*  serve para tirar a barra de rolagem*/
+    display: none;
+}
+
 h1{
     font-family: Arial, Helvetica, sans-serif;/*Já deixa o texto configurado e responsivo*/
     text-shadow: 4px 4px 6px #000;
@@ -54,7 +58,7 @@ header{
 header nav#nav-esquerda{
     width: 100%;
     height: 150px;
-    display: flex;
+    display: flex;/* coloca um do lado do outro*/
     flex-flow: row;
     align-items: center;
     /*justify-content: space-between; /*(move "menu" para canto direito */
@@ -207,4 +211,124 @@ section.solucao div.solucao-mestre div.solucao-img{
 
 section.solucao div.solucao-mestre div.solucao-img img{
     max-width: 100%;/* quer dizer: se comporte o maximo da largura da div pai(que é a "solucao-img)*/
+}
+/*-------  Makes  -------*/
+
+section.make{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 60px;
+}
+
+section.make h2{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    max-width: 850px;/* "px" e não "%" pq já fica responsivo*/
+    text-align: center;
+    color: #400101;
+    font-size: max(22px, 2.8vw); /* já fica responsivo*/
+}
+section.makes div.make-conteiner{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+/*-------  Footer  -------*/
+
+footer{
+    width: 100%;
+    background-color: #F27127;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div.footer-container{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div.footer-container div.logo-footer{
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+footer div.footer-container div.logo-footer img{
+    max-width: 100%;
+}
+
+footer div.footer-container div.footer-info{
+    width: 70%;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div.footer-container div.footer-info nav.nav-footer ul{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+footer div.footer-container div.footer-info nav.nav-footer ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+footer div.footer-container div.footer-info nav.nav-footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 110%;
+    transition: .3s ease-out;
+}
+
+footer div.footer-container div.footer-info nav.nav-footer ul li a:hover{
+    border: 2px solid #e2d4d6;
+}
+
+footer div.footer-container div.footer-info div.cartoes{
+    display: flex;
+    flex-direction: column; /* para imagem ficar abaixo do texto*/
+    justify-content: center;
+    align-items: center;
+}
+
+footer div.footer-container div.footer-info div.cartoes span{
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: max(16px, 1.5vw);
+    margin-top: 15px;
+}
+
+footer div.footer-container div.footer-info div.cartoes div.footer-img-cartoes{
+    max-width: 340px;
+}
+
+footer div.footer-container div.footer-info div.cartoes div.footer-img-cartoes img{
+    max-width: 100%;
+}
+
+footer span.autorais{
+    color: #fff;
+    font-size: max(14px, .8vw);
+    margin-top: 20px;
 }
