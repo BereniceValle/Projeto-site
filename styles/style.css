@@ -37,7 +37,15 @@ div.chamada a{
     border-radius: 50px;
     font-weight: 600;
     background: linear-gradient(rgba(242, 138, 46, 1) 0%, rgba(242, 113, 39, 1) 50%, rgba(191, 52, 21, 1) 100%);
+    
     display: inline-block;
+    
+    animation-name: HeaderH2-moverParaCima;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
+    transition: .3 ease-in-out;
 }
 
 div.chamada a:hover{
@@ -133,11 +141,16 @@ header div.chamada{
 
 header div.chamada h1{
     color: #fff;
-
+    animation-name: HeaderH1-moverParaDireita;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 
 header div.chamada h2{
     color: #f28af2;
+    animation-name: HeaderH2-moverParaEsquerda;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 /*-------  sobre  -------*/
 

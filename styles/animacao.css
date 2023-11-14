@@ -1,0 +1,45 @@
+/*-------  Animacao do titulo  -------*/
+
+@keyframes HeaderH1-moverParaDireita{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px); /*posição do eixo X em -100%*/
+    }
+    75%{
+        transform: translateX(30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes HeaderH2-moverParaEsquerda{
+    0%{
+        opacity: 0;
+        transform: translateX(100px); /* posito pq vai comecar na direita*/
+    }
+    75%{
+        transform: translateX(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes HeaderH2-moverParaCima{
+    0%{
+        opacity: 0;
+        transform: translateY(50px); /* posito pq vai comecar debaixo pra cima*/
+    }
+    75%{
+        transform: translateY(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Não esqucer de importar para o projeto em head*/
