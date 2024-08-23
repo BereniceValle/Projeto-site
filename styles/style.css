@@ -28,6 +28,189 @@ h2{
     font-weight: 700;
     font-size: max(20px, 2.8vw);
 }
+
+
+body{
+    background-color: rgb(240, 200, 125);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;/*Já deixa o texto configurado e responsivo*/
+    text-shadow: 2px 2px 4px #400101;
+    font-weight: 700;
+    font-size: max(20px, 2.8vw);
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;/*Já deixa o texto configurado e responsivo*/
+    text-shadow: 2px 2px 4px #400101;
+    font-weight: 700;
+    font-size: max(20px, 2.8vw);
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;/*Já deixa o texto configurado e responsivo*/
+    font-weight: 700;
+    font-size: max(10px,2.2vw);
+}
+
+section{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+section.introdução{
+    max-width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+section.introdução p{
+    text-align: left;
+    margin-bottom: 50px;
+}
+section.aula1{
+    max-width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: azure;
+}
+
+section.aula1 p{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+section.topico1{
+    max-width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+section.topico1 p{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+section.topico2{
+    max-width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: azure;
+}
+
+section.topico2 p{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 100%;
+    padding: 20px;
+}
+.image-container img {
+    width: calc(50% - 10px); /* Cada imagem ocupa 50% da largura do container menos o gap */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+}
+
+img{
+    width: calc(70% - 10px); /* Cada imagem ocupa 50% da largura do container menos o gap */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+}
+
+.lista-alinhada-esquerda {
+    list-style-type: disc; /* Estilo dos marcadores da lista */
+    padding-left: 20px; /* Espaçamento à esquerda para os itens da lista */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    max-width: 600px; /* Largura máxima da lista */
+    margin: 0 auto; /* Centraliza a lista horizontalmente na página */
+}
+
+.lista-alinhada-esquerda li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+    font-size: 18px; /* Tamanho da fonte dos itens */
+    line-height: 1.5; /* Espaçamento entre linhas para melhorar a legibilidade */
+}
+
+section.topico3{
+    max-width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+section.topico3 p{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+section.topico4{
+    max-width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: azure;
+}
+
+section.topico4 p{
+    text-align: left;
+    margin-bottom: 50px;
+}
+section.reflexao{
+    max-width: 100%;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+section.reflexao p{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .image-container img {
+        width: calc(100% - 10px); /* Cada imagem ocupa 100% da largura do container menos o gap em telas menores */
+    }
+}
 /*-------  Botão chamada  -------*/
 div.chamada a{
     font-size: max(16px, 1.8vw); /*já deixa a fonte responsiva*/
